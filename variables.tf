@@ -49,7 +49,7 @@ variable "attach_policy" {
 variable "attach_public_policy" {
   description = "Controls if a user defined public bucket policy will be attached (set to `false` to allow upstream to apply defaults to the bucket)"
   type        = bool
-  default     = true
+  default     = false
 }
 
 variable "attach_inventory_destination_policy" {
